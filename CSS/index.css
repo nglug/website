@@ -1,0 +1,16 @@
+.side-bar {
+    background-color: black;
+    width: 60px;
+    height: 100%;
+    margin: -8px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    left: 0;
+}
+
+.button-backgroud {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+  }
