@@ -1,5 +1,23 @@
+
+
 #main {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    margin: 100px;
+    transition: 0.3s;
+    top: 0px;
+    margin-top: 0px;
+}
+
+.up-down {
+    height: 30px;
+    width: 30px;
+    margin-top: 9px;
+    border-radius: 30px;
+    border-width: 0px;
+    cursor: pointer;
 }
 
 .button {
@@ -20,9 +38,9 @@
 #navbar {
     background-color: #333; 
     position: fixed; 
-    top: -40px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    top: -40px; 
+    width: 100%; 
+    transition: top 0.3s;
     left: 0px;
     height: 40px;
 }
