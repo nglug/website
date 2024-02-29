@@ -7,11 +7,30 @@
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-    <div class="side-bar">
-        <div class="home-button">
-            <div class="button-background">.</div>
-            <img src="images/home.png">
+    <div id="navbar">
+        <div class="button" onclick="buttonClick(this)">
+             nav
         </div>
     </div>
+
+    <div id="main">
+        
+    </div>
+    
 </body>
+<script src="JS/index.js">
+    var x = 0
+    function buttonClick() {
+    if (x == 0) {
+        document.getElementById("navbar").style.top = "0px";
+        x ++;
+        document.getElementById("main").style.marginTop = "38px";
+
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+        x --;
+        document.getElementById("main").style.marginTop = "0px";
+    }
+    }
+</script>
 </html>

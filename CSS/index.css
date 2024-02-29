@@ -1,16 +1,29 @@
-.side-bar {
-    background-color: black;
-    width: 60px;
-    height: 100%;
-    margin: -8px;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    left: 0;
+#main {
+    
 }
 
-.button-backgroud {
-    height: 50px;
+.button {
+    display: inline-block;
+    position: fixed; 
+    cursor: pointer;
+    background-color: gray;
     width: 50px;
-    background-color: white;
-    border-radius: 50%;
-  }
+    height: 25px;
+    border-radius: 0px 0px 10px 10px;  
+    padding-top: 15px;
+    text-align: center;
+    transition: 0.3s;
+    margin-top: 40px;
+    right: 10px;
+}
+
+#navbar {
+    background-color: #333; 
+    position: fixed; 
+    top: -40px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    left: 0px;
+    height: 40px;
+}
+
