@@ -26,9 +26,18 @@ function change() {
   }
 }
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function buttonUp() {
   document.getElementById("number").innerHTML = Number(document.getElementById("number").innerHTML) + 1
 }
 function buttonDown() {
   document.getElementById("number").innerHTML = Number(document.getElementById("number").innerHTML) - 1
+}
+
+function nah(x) {
+  x.style.left = getRandomInt(90) + "%";
+  x.style.top = getRandomInt(90) + "%";
 }

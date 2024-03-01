@@ -1,5 +1,4 @@
 
-
 #main {
     display: flex;
     flex-direction: row;
@@ -45,3 +44,13 @@
     height: 40px;
 }
 
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
