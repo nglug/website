@@ -48,3 +48,14 @@ body {
 #math {
     margin-top: 0px;
 }
+
+.cube {
+    background-color: grey;
+    margin: 100px;
+}
+
+#cube-part {
+    width: 10px;
+    height: 10px;
+    transform: rotateX(45deg);
+}
